@@ -1,0 +1,105 @@
+/* Reset */
+* { margin:0; padding:0; box-sizing:border-box; font-family:-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; }
+
+body {
+  background:#fff;
+  color:#111;
+  font-size:18px;
+  -webkit-font-smoothing:antialiased;
+}
+
+header {
+  width:100%;
+  padding:20px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #eee;
+}
+
+nav a {
+  margin-left:24px;
+  color:#111;
+  text-decoration:none;
+  opacity:.7;
+  transition:.2s;
+}
+nav a:hover {
+  opacity:1;
+}
+
+.hero {
+  width:100%;
+  max-width:1000px;
+  margin:0 auto;
+  padding:160px 20px;
+  text-align:center;
+}
+.hero h1 {
+  font-size:62px;
+  font-weight:700;
+  letter-spacing:-1px;
+  margin-bottom:30px;
+}
+.hero p {
+  font-size:22px;
+  color:#555;
+  line-height:1.6;
+  margin-bottom:40px;
+}
+button {
+  background:#111;
+  color:#fff;
+  border:none;
+  padding:14px 40px;
+  font-size:18px;
+  border-radius:30px;
+  cursor:pointer;
+  transition:.2s;
+}
+button:hover {
+  opacity:.8;
+}
+
+footer {
+  padding:60px 40px;
+  text-align:center;
+  font-size:14px;
+  color:#777;
+  border-top:1px solid #eee;
+}
+
+/* Common sections */
+.page-container {
+  max-width:800px;
+  margin:0 auto;
+  padding:120px 20px;
+}
+.page-container h2 {
+  font-size:40px;
+  margin-bottom:30px;
+}
+.page-container p {
+  line-height:1.8;
+  color:#444;
+}
+
+/* Contact */
+.contact-box {
+  margin-top:40px;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+.contact-box input,
+.contact-box textarea {
+  width:100%;
+  border:1px solid #ddd;
+  padding:16px;
+  border-radius:12px;
+  font-size:16px;
+}
+.contact-box button {
+  width:200px;
+  align-self:flex-start;
+}
